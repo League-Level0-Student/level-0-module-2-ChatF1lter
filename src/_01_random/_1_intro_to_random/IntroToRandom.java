@@ -30,7 +30,7 @@ public class IntroToRandom {
 		for (int i=0; i<5; i++) {
 			// Uncomment the line of code below, but replace the _____ with a positive integer (e.g. 100) before running the program			
 
-			// number = ran.nextInt(_____);
+			number = ran.nextInt(100);
 			System.out.println(number);
 			
 		}
@@ -49,9 +49,9 @@ public class IntroToRandom {
 			// For our example, this will be:  ( 75 - 25 + 1 )
 			// Also replace <lowest value> with the start of the range.  For our example, this is 25.
 			
-			// number = ran.nextInt(_____) + <lowest value>;
-			System.out.println(number);
-			
+			//number = ran.nextInt(75 - 25 + 1) + 25;
+			//System.out.println(number);
+			//Commented so I could see if my own line works
 		}
 		// This time, all the values printed should be between 25 and 75.
 
@@ -59,7 +59,8 @@ public class IntroToRandom {
 		/*************  Random integers with an upper and lower (negative) limit  *************/
 		
 		// Using the above example, generate 5 random numbers between -222 and 88
-
+		number = ran.nextInt(88-(-288)) + -288;
+		System.out.println(number);
 
 	}
 }
