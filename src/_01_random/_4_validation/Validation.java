@@ -11,7 +11,7 @@ public class Validation {
 	public static void main(String[] args) {
 		
 		Random randomMaker = new Random();
-		
+for(int n=0;n<10;n++){		
 		int randomNumber = randomMaker.nextInt(5);
 		
 		System.out.println(randomNumber);
@@ -27,6 +27,8 @@ if (randomNumber==1) {
 	JOptionPane.showMessageDialog(null, "You aren't gullible!");
 } else if (randomNumber==5) {
 	JOptionPane.showMessageDialog(null, "You're a great coder!");
+} else if (randomNumber==0) { 
+	JOptionPane.showMessageDialog(null, "You get through the modules fast!");
 }
 		// 2. Repeat all the code above 10 times
 	
@@ -34,3 +36,4 @@ if (randomNumber==1) {
 	}
 }
 }
+
